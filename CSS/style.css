@@ -1,0 +1,132 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #FFA1A1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #FFA1A1;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  line-height: 2;
+}
+hr{
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 4px;
+  height: 3px;
+  width: 4%;
+}
+
+.job {
+  text-decoration: underline;
+}
+
+
+.top-container {
+  color: #F37878;
+  background-color: #F9F9C5;
+  position: relative;
+  padding-top: 100px;
+}
+.profile {
+  padding-bottom: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 75px auto;
+  text-align: left;
+
+}
+
+.behavioralskills {
+  width: 35%;
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+}
+.skills{
+  padding: 50px;
+}
+
+.lynch {
+  width: 35%;
+  float: right;
+  border-radius: 10%;
+  margin-left: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+.bottom-container {
+  color: white;
+  background-color: #F37878;
+  padding: 12px;
+  margin-top: 10px;
+}
+.fund{
+  padding-bottom: 50px;
+}
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  background:  #F37878;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffa1a1;
+  background-image: -webkit-linear-gradient(top, #ffa1a1, #ffa1a1);
+  background-image: -moz-linear-gradient(top, #ffa1a1, #ffa1a1);
+  background-image: -ms-linear-gradient(top, #ffa1a1, #ffa1a1);
+  background-image: -o-linear-gradient(top, #ffa1a1, #ffa1a1);
+  background-image: linear-gradient(to bottom, #ffa1a1, #ffa1a1);
+  text-decoration: none;
+}
+.contact-me {
+  padding: 50px;
+}
+.style{
+  color: #EAF6F6;
+  font-family: serif;
+  font-size: 0.75rem;
+}
